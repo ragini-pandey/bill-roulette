@@ -1,4 +1,4 @@
-# 🍕 Dare to Pay
+# � Bill Roulette
 
 A fun Russian roulette-style game to decide who pays the bill! Pass the phone around and tap the pizzas — whoever triggers the losing tile pays!
 

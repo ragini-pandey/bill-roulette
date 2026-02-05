@@ -56,7 +56,7 @@ export default function App() {
 
   return (
     <div className="app">
-      <h1 className="title">Dare to Pay</h1>
+      <h1 className="title">Bill Roulette</h1>
 
       <div className="grid-toggle">
         <button
