@@ -28,7 +28,7 @@
   letter-spacing: 3px;
   margin: 0;
   flex-shrink: 0;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #a5b4fc 0%, #c4b5fd 50%, #f0abfc 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -55,17 +55,17 @@
 }
 
 .grid-toggle button.active {
-  background: rgba(255, 255, 255, 0.2);
-  color: white;
+  background: rgba(255, 255, 255, 0.25);
+  color: #f0abfc;
 }
 
 .grid-toggle button:hover:not(.active) {
-  color: rgba(255, 255, 255, 0.8);
+  color: #e0e7ff;
 }
 
 /* Status text */
 .status {
-  color: rgba(255, 255, 255, 0.8);
+  color: #e0e7ff;
   font-size: 16px;
   text-align: center;
   font-weight: 500;
@@ -73,7 +73,7 @@
 }
 
 .status.loser {
-  color: #ff6b6b;
+  color: #fca5a5;
   font-size: 22px;
   font-weight: bold;
   animation: shake 0.5s ease-in-out, pulse 1s ease-in-out infinite;
@@ -167,8 +167,8 @@
   font-weight: 600;
   border: none;
   border-radius: 12px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: linear-gradient(135deg, #a5b4fc 0%, #c4b5fd 100%);
+  color: #1a1a2e;
   cursor: pointer;
   transition: all 0.2s ease;
   animation: fadeIn 0.5s ease-out;
@@ -177,7 +177,7 @@
 
 .reset-btn:hover {
   transform: scale(1.05);
-  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 8px 25px rgba(165, 180, 252, 0.5);
 }
 
 .reset-btn:active {
@@ -251,13 +251,13 @@
 }
 
 .modal-title {
-  color: #ff6b6b;
+  color: #fca5a5;
   font-size: 36px;
   font-weight: 800;
   margin-bottom: 12px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  text-shadow: 0 0 20px rgba(255, 107, 107, 0.5);
+  text-shadow: 0 0 20px rgba(252, 165, 165, 0.5);
   animation: titlePulse 0.5s ease-in-out infinite alternate, glowPulse 1s ease-in-out infinite;
 }
 
@@ -267,8 +267,8 @@
 }
 
 @keyframes glowPulse {
-  0%, 100% { text-shadow: 0 0 20px rgba(255, 107, 107, 0.5); }
-  50% { text-shadow: 0 0 40px rgba(255, 107, 107, 0.8), 0 0 60px rgba(255, 107, 107, 0.4); }
+  0%, 100% { text-shadow: 0 0 20px rgba(252, 165, 165, 0.5); }
+  50% { text-shadow: 0 0 40px rgba(252, 165, 165, 0.8), 0 0 60px rgba(252, 165, 165, 0.4); }
 }
 
 .modal-message {
@@ -284,15 +284,15 @@
   font-weight: 600;
   border: none;
   border-radius: 12px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: linear-gradient(135deg, #a5b4fc 0%, #c4b5fd 100%);
+  color: #1a1a2e;
   cursor: pointer;
   transition: all 0.2s ease;
 }
 
 .modal-btn:hover {
   transform: scale(1.05);
-  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 8px 25px rgba(165, 180, 252, 0.5);
 }
 
 .modal-btn:active {

@@ -1,6 +1,10 @@
-# � Bill Roulette
+# 🎰 Bill Roulette
 
-A fun Russian roulette-style game to decide who pays the bill! Pass the phone around and tap the pizzas — whoever triggers the losing tile pays!
+A fun Russian roulette-style game to decide who pays the bill! Pass the phone around and tap the pizzas and whoever triggers the losing tile pays!
+
+## 🌐 Live Demo
+
+**[Play Now → bill-roulette-rose.vercel.app](https://bill-roulette-rose.vercel.app/)**
 
 ## 🎮 How to Play
 
