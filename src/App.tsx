@@ -104,6 +104,10 @@ export default function App() {
       {showModal && (
         <div className="modal-overlay" onClick={() => setShowModal(false)}>
           <div className="modal" onClick={(e) => e.stopPropagation()}>
+            {/* Confetti pieces */}
+            {Array.from({ length: 20 }, (_, i) => (
+              <div key={i} className="confetti" />
+            ))}
             <div className="modal-emoji">{MONEY_EMOJI}</div>
             <h2 className="modal-title">YOU PAY!</h2>
             <p className="modal-message">{loserMessage}</p>
